@@ -1,0 +1,128 @@
+  @charset "UTF-8";
+
+  body{
+
+    background-color: darkgray;
+    background-image: url(imagens/wallpaper.jpg);
+    background-position: center center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    
+  
+  }
+  
+  div.Logo{
+
+    
+    display: flex;
+    justify-content: center ;
+    
+    
+  }
+
+  nav{
+
+    background-color: rgba(0, 0, 0, 0.144);
+    text-align: center;
+    
+    
+    
+    
+    
+  }
+
+  nav ul {
+
+
+    display: inline-flex;
+    list-style: none;
+    
+    
+
+  } 
+  nav ul li{
+
+    width: 125px;
+    margin: 15px;
+    padding: 5px;
+
+  }
+  nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    
+    
+  }
+  
+  
+.sub-menu1{
+
+  display: none;
+  font-size: 1em;
+}
+nav ul li:hover .sub-menu1{
+    
+  display: block;
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.616);
+  margin-top: 15px;
+  
+ 
+}
+nav ul li:hover .sub-menu1 ul{
+
+    display: block;
+    
+}
+
+nav ul li:hover .sub-menu1 ul li{
+
+      width: 150px;
+      text-align: center;
+      border-radius: 10px;
+      transition: 0.5s;
+
+
+}
+
+nav ul li:hover .sub-menu1 ul li:hover{
+
+    background-color:  rgba(0, 0, 0, 0.856);
+}
+
+main{
+
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+  
+
+  
+}
+
+footer > div{
+
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+  
+ 
