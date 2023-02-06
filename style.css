@@ -142,6 +142,7 @@ main >h1 {
   transition: all.5s;
   cursor: pointer;
  
+ 
 
   
 
@@ -174,6 +175,7 @@ main >h1 {
   transition: all.5s;
   cursor: pointer;
   bottom: 275px;
+  
  
   
 }
@@ -204,6 +206,7 @@ main >h1 {
   left: 375px;
   bottom: 550px;
   
+  
 
 }
 
@@ -233,7 +236,7 @@ main >h1 {
   cursor: pointer;
   right: 375px;
   bottom: 540px;
-  
+ 
 
 }
 
@@ -263,6 +266,7 @@ main >h1 {
   cursor: pointer;
   left: 0px;
   bottom: 816px;
+  
   
 
 }
@@ -294,6 +298,7 @@ main >h1 {
   cursor: pointer;
   left: 375px;
   bottom: 1090px;
+  
  
 
 }
